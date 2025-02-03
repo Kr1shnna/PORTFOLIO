@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #040404;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0f8b8d;
+}
+
+.section {
+    padding: 60px 20px;
+    margin-top: 80px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#about {
+    background-image: url('BG.avif'); /* Replace with your image file path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image in the section */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    padding: 100px 20px; /* Adjust the padding to create space for the content */
+    color: white; /* Adjust text color if needed to contrast the background */
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.bio h1 {
+    font-size: 2.5em;
+    color: #0a0909;
+}
+
+.bio p {
+    font-size: 1.2em;
+    color: #070707;
+}
+
+#skills h2{
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+.container h3{
+    text-align: left;
+}
+
+ #work h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+#work p {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+
+/* Contact Section */
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+}
+
+.social-icon {
+    width: 40px; /* Set the size of the icon */
+    height: 40px;
+    object-fit: cover; /* Ensures the icons don't get distorted */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.portfolio-item {
+    width: 30%;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Style for Resume Link/Button */
+.resume-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2e3685;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.resume-btn:hover {
+    background-color: #0d7070;
+}
+
+#contact h2{
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.social-icons{
+    display: block;
+     margin-left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+}
+
+footer p {
+    font-size: 1em;
+}
